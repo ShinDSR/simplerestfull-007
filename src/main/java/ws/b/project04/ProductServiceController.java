@@ -28,15 +28,15 @@ public class ProductServiceController {//Membuat class ProductServiceController
         Product honey = new Product();//Membuat value/product variable baru bernama honey
         honey.setId("1");//Mengatur id variable honey
         honey.setName("Honey");//Mengatur name variable honey
-        honey.setPrice(80000);
-        honey.setNumber(2);
+        honey.setPrice(80000);//Mengetur harga variable honey
+        honey.setNumber(2);//Mengatur jumlah variable honey
         productRepo.put(honey.getId(), honey);//Membuat productRepo untuk variable honey dan menapilkan isinya
 
         Product almond = new Product();//Membuat value/product variable baru bernama almond
         almond.setId("2");//Mengatur id variable almond
         almond.setName("Almond");//Mengatur name variable almond
-        almond.setPrice(50000);
-        almond.setNumber(3);
+        almond.setPrice(50000);//Mengetur harga variable almond
+        almond.setNumber(3);//Mengatur jumlah variable almond
         productRepo.put(almond.getId(), almond);//Membuat productRepo untuk variable almond dan menapilkan isinya
     }
 
